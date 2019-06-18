@@ -1,0 +1,100 @@
+
+/*Стили для демо*/
+h2.title {
+	background-color: #503d3f;
+	color:#fff;
+	font-family: "Audi-TypeScreenLight", sans-serif;
+	line-height: 60px;
+	font-weight: 400;
+	position: relative;
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+h2.title:after {
+	content: "";
+	position: absolute;
+	bottom:-35px;
+	left:0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1px;
+	border:20px solid transparent;
+	border-top-color: #503d3f;
+	z-index: 10;
+}
+
+h2.title + .owl-carousel .owl-dots .owl-dot.active span {background-color: #503d3f;}
+
+h2.title.second {background-color: #EA6D13;}
+h2.title.second:after {border-top-color: #EA6D13;}
+h2.title.second + .owl-carousel .owl-dots .owl-dot.active span {background-color: #EA6D13;}
+
+h2.title span{
+	color:#fff;
+	font-family: "Audi-TypeScreenLight", sans-serif;
+	line-height: 40px;
+	font-weight: 700;
+}
+
+.block-one-example {
+	margin:30px 0;
+	position: relative;
+}
+
+.inner-testimonial {
+	text-align: center;
+	background-color: #fff;
+}
+
+.inner-testimonial > img{
+	max-width: 128px;
+	margin:0 auto 15px;
+	opacity: 0;
+	-webkit-transition:all 1.3s linear;
+	transition:all 1.3s linear;
+}
+
+.owl-item.active .inner-testimonial > img{
+	-webkit-transition:all 1.3s linear;
+	transition:all 1.3s linear;
+}
+
+.owl-item.active .inner-testimonial > img.full-opacity {
+	opacity:1;
+	-webkit-transition:all 0.3s linear;
+	transition:all 0.3s linear;
+}
+
+h3.city-name {
+	padding:10px 0;
+	font-size: 20px;
+	font-family: "Audi-TypeScreenBold", sans-serif;
+	font-weight: 900;
+}
+
+p.text-testimonial {
+	padding:10px 0;
+	font-size: 20px;
+	font-family: "Audi-TypeScreenLight", sans-serif;
+	font-weight: 300;
+	line-height: 25px;
+	color: #000;
+}
+
+.block-items {
+	cursor: default;
+}
+
+/*Изменяем внешний вид элементов управления (точки) */
+.owl-theme .owl-dots .owl-dot span {
+	width: 14px;
+	height: 14px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+	width: 18px;
+	height: 18px;
+}

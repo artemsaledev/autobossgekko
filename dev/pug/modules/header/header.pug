@@ -1,0 +1,47 @@
+header.cd-main-header.js-cd-main-header
+	div.cd-logo-wrapper
+		a(href="#").cd-logo.logo
+			img(src="static/images/general/audi-LOGO-tw.png" alt="Logo")
+
+	.order-callback
+		a(href="tel:+390977474545").order-callback__phone +390977474545 
+		a(href="#0").order-callback__link.btn.trigger Заказать звонок  
+	div.modal-wrapper
+		div.head
+		div.modal
+			div.content
+				div.good-job
+					p ОСТАВЬТЕ СВОИ ДАННЫЕ И МЫ С ВАМИ СВЯЖЕМСЯ
+					div.text
+						p Спасибо за доверие
+					form(action="").form_modal_window
+						input(type="text" name="name" placeholder="Ваше имя" required)
+						input(type="email" name="email" placeholder="Ваш email" required)
+						input(type="phone" name="phone" placeholder="Ваш телефон" required)
+						input(name="sub" type="submit" value="ОТПРАВИТЬ").form_sub 
+					div(id="erconts")
+
+	ul.cd-nav__list.js-cd-nav__list
+		li.cd-nav__item.toggle-id-1
+			a(href="#0") Каталог
+		li.cd-nav__item.toggle-id-2
+			a(href="#0") Меню
+		li.cd-nav__item.toggle-id-
+			a(href="#0") Оплата и доставка
+		li.cd-nav__item.toggle-id-3
+			a(href="#0") Наши клиенты
+		li.cd-nav__item.toggle-id-
+			a(href="#0") Контакты
+
+	ul.cd-nav__list.js-cd-nav__list
+		li.cd-nav__item.cd-nav__item--has-children.cd-nav__item--account.js-cd-item--has-children.cd-search.js-cd-search
+			a(href="#0").reset.cd-cart
+				span 0
+				+icon('cart', 'cart-prev__icon')
+			ul.cd-nav__sub-list
+				li.cd-nav__sub-item
+					a(href="#0") Оплатить
+				li.cd-nav__sub-item
+					a(href="#0") Изменить количество
+	//- include ../navigation/main-nav
+	//- include ../basket/basket-prev

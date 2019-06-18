@@ -1,0 +1,243 @@
+extends template/main
+
+block variables
+	- var title = 'Главная страница'
+
+block slidebar-catalog
+	.assort-sidebar(off-canvas="id-1 left reveal")
+		ul.cd-gallery
+			li
+				div.cd-single-item
+					a(href="#0")
+						ul.cd-slider-wrapper
+							li.selected
+								img(src="static/images/general/addcart/thumb-1.jpg" alt="Preview image")
+							li
+								img(src="static/images/general/addcart/thumb-2.jpg" alt="Preview image")
+							li
+								img(src="static/images/general/addcart/thumb-3.jpg" alt="Preview image")
+							li
+								img(src="static/images/general/addcart/thumb-4.jpg" alt="Preview image")
+					
+					div.cd-customization
+						div(data-type="select").color.selected-2
+							ul
+								li.color-1.active color-1
+								li.color-2 color-2
+								li.color-3 color-3
+								li.color-4 color-4
+
+						button.add-to-cart
+							em Add to Cart
+							svg(x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32")
+								path(stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11")
+
+					button.cd-customization-trigger Customize
+
+				div.cd-item-info
+					b
+						a(href="#0") Product Name
+					em $9.99
+			li
+				div.cd-single-item
+					a(href="#0")
+						ul.cd-slider-wrapper
+							li
+								img(src="static/images/general/addcart/thumb-1.jpg" alt="Preview image")
+							li.selected
+								img(src="static/images/general/addcart/thumb-2.jpg" alt="Preview image")
+							li
+								img(src="static/images/general/addcart/thumb-3.jpg" alt="Preview image")
+							li
+								img(src="static/images/general/addcart/thumb-4.jpg" alt="Preview image")
+					
+					div.cd-customization
+						div(data-type="select").color.selected-2
+							ul
+								li.color-1 color-1
+								li.color-2.active color-2
+								li.color-3 color-3
+								li.color-4 color-4
+
+						button.add-to-cart
+							em Add to Cart
+							svg(x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32")
+								path(stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11")
+
+					button.cd-customization-trigger Customize
+
+				div.cd-item-info
+					b
+						a(href="#0") Product Name
+					em $9.99
+			li
+				div.cd-single-item
+					a(href="#0")
+						ul.cd-slider-wrapper
+							li
+								img(src="static/images/general/addcart/thumb-1.jpg" alt="Preview image")
+							li
+								img(src="static/images/general/addcart/thumb-2.jpg" alt="Preview image")
+							li.selected
+								img(src="static/images/general/addcart/thumb-3.jpg" alt="Preview image")
+							li
+								img(src="static/images/general/addcart/thumb-4.jpg" alt="Preview image")
+					
+					div.cd-customization
+						div(data-type="select").color.selected-2
+							ul
+								li.color-1 color-1
+								li.color-2 color-2
+								li.color-3.active color-3
+								li.color-4 color-4
+
+						button.add-to-cart
+							em Add to Cart
+							svg(x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32")
+								path(stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11")
+
+					button.cd-customization-trigger Customize
+
+				div.cd-item-info
+					b
+						a(href="#0") Product Name
+					em $9.99
+			li
+				div.cd-single-item
+					a(href="#0")
+						ul.cd-slider-wrapper
+							li
+								img(src="static/images/general/addcart/thumb-1.jpg" alt="Preview image")
+							li
+								img(src="static/images/general/addcart/thumb-2.jpg" alt="Preview image")
+							li
+								img(src="static/images/general/addcart/thumb-3.jpg" alt="Preview image")
+							li.selected
+								img(src="static/images/general/addcart/thumb-4.jpg" alt="Preview image")
+					
+					div.cd-customization
+						div(data-type="select").color.selected-2
+							ul
+								li.color-1 color-1
+								li.color-2 color-2
+								li.color-3 color-3
+								li.color-4.active color-4
+
+						button.add-to-cart
+							em Add to Cart
+							svg(x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32")
+								path(stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11")
+
+					button.cd-customization-trigger Customize
+
+				div.cd-item-info
+					b
+						a(href="#0") Product Name
+					em $9.99
+
+block slidebar-testimonials
+	.testimonials-sidebar(off-canvas="id-2 left reveal")
+		div(id="testimonials")
+			.container
+				.block-one-example
+					h2(id="example").title.second  Плавная анимация
+						span Пример 2
+					div.owl-carousel.block-items
+						div.item
+							div.inner-testimonial
+								img(src="static/images/general/clients/client1.png" alt="Клиент 1").full-opacity
+								h3.city-name Иван, Москва
+								p.text-testimonial Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Рот последний на берегу послушавшись, подзаголовок! Грамматики живет власти текст дорогу.
+						div.item
+							div.inner-testimonial
+								img(src="static/images/general/clients/client2.png" alt="Клиент 2").full-opacity
+								h3.city-name Ольга, Харьков
+								p.text-testimonial Далеко-далеко за словесными горами в стране, гласных и слушавшискст дорогу.
+						div.item
+							div.inner-testimonial
+								img(src="static/images/general/clients/client3.png" alt="Клиент 3").full-opacity
+								h3.city-name Олег, Киев
+								p.text-testimonial а словесными горами в стране, гласных и спослушавшись, подзаголовок! Грамматики живет власти текст дорогу.
+
+block slidebar-gallery
+	.gallery-sidebar(off-canvas="id-3 left reveal")
+			.container
+				div.owl-carousel.block-items
+					div.item
+						div.inner-gallery
+							img(src="static/images/content/products/geckblacko.png" alt="Клиент 1").full-opacity
+							h3.city-name Иван, Москва
+					div.item
+						div.inner-gallery
+							img(src="static/images/content/products/geckgray.png" alt="Клиент 2").full-opacity
+							h3.city-name Ольга, Харьков
+					div.item
+						div.inner-gallery
+							img(src="static/images/content/products/geckred.png" alt="Клиент 3").full-opacity
+							h3.city-name Олег, Киев
+					div.item
+						div.inner-gallery
+							img(src="static/images/content/products/geckyellow.png" alt="Клиент 4").full-opacity
+							h3.city-name Олег, Киев
+
+block sidebar-nav
+	nav.cd-side-nav.js-cd-side-nav
+		ul.cd-side__list.js-cd-side__list
+			li.cd-side__label
+				span Покупка
+
+			li.cd-side__item.cd-side__item--has-children.cd-side__item--overview.js-cd-item--has-children
+				a(href="#0") Overview
+				ul.cd-side__sub-list
+					li.cd-side__sub-item
+						a(href="#0") All Data
+					li.cd-side__sub-item
+						a(href="#0") Category 1
+					li.cd-side__sub-item
+						a(href="#0") Category 2
+
+			li.cd-side__item.cd-side__item--has-children.cd-side__item--notifications.cd-side__item--selected.js-cd-item--has-children.toggle-id-1
+				a(href="#0") Ассортимент 
+					span.cd-count 4
+				ul.cd-side__sub-list
+					li.cd-side__sub-item
+						a(aria-current="page" href="#0") Все товары
+					li.cd-side__sub-item
+						a(href="#0") Выбрать запах
+					li.cd-side__sub-item
+						a(href="#0") Выбрать цвет
+
+			li.cd-side__item.cd-side__item--has-children.cd-side__item--comments.js-cd-item--has-children
+				a(href="#0") Акция
+				ul.cd-side__sub-list
+					li.cd-side__sub-item
+						a(href="#0") 5+1 за 50$
+					li.cd-side__sub-item
+						a(href="#0") 2+1 за 20$
+
+		ul.cd-side__list.js-cd-side__list
+			li.cd-side__label
+				span Контент
+			li.cd-side__item.cd-side__item--has-children.cd-side__item--bookmarks.js-cd-item--has-children.toggle-id-3
+				a(href="#0") Галерея
+
+			li.cd-side__item.cd-side__item--has-children.cd-side__item--images.js-cd-item--has-children.toggle-id-2
+				a(href="#0") Отзывы
+		
+		ul.cd-side__list.js-cd-side__list
+			li.cd-side__label
+				span Связь
+			li.cd-side__btn
+				button(href="#0").reset Написать нам
+
+block content
+	.offer-text(id="audi")
+			span.close(id="click-to-close")
+			h1.head-offer Audi Geсko
+			p.official-head Официальные аксессуары
+			a(href="#0").link-offer Подобрать освежитель
+			p Освежитель воздуха Gecko просто и быстро вставляется в ребра вентиляционного отверстия и обеспечивает приятный аромат в автомобиле в течение 45 дней 
+			button Остановить видео
+	.video-fullsize
+		video(poster="static/video/geckaudi.png" playsinline autoplay muted loop id="bgvid")
+			source(src="static/video/test.mp4" type="video/mp4")

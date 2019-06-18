@@ -1,0 +1,38 @@
+include ../utils/mixins
+block variables
+
+doctype html
+html(lang="ru-RU").js
+	head
+		meta(charset="utf-8")
+		title #{title}
+		<!--[if IE]>
+		meta(http-equiv='X-UA-Compatible', content="IE = edge")
+		<![endif]-->
+		meta(name="viewport" content="width=device-width,initial-scale=1")
+		meta(name="keywords" content="")
+		link(rel="stylesheet" type='text/css' href="static/css/styles.min.css")
+		script document.getElementsByTagName("html")[0].className += " js"
+		<!--[if lt IE 9]>
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js")
+		<![endif]-->
+	body
+	block slidebar-catalog
+	block slidebar-testimonials
+	block slidebar-gallery
+	include ../modules/header/header
+	main.cd-main-content
+		aside.show-menu-left
+			button(aria-label="Toggle menu").reset.cd-nav-trigger.js-cd-nav-trigger
+				span
+			block sidebar-nav
+		div(canvas="container")
+			block content
+		aside.show-menu-right
+	include ../modules/footer/footer
+	script(src="static/js/jquery-3.3.1.min.js")
+	script(src="static/js/libs.min.js")
+	script(src="static/js/main.js")
+	//- script(src="//code-ru1.jivosite.com/widget.js" jv-id="molloGbV1F" async)
+
+

@@ -1,0 +1,36 @@
+как вставить видео 
+https://www.internet-technologies.ru/articles/sozdanie-polnoekrannogo-html5-video-dlya-fona-stranicy.html
+демо полина
+https://codepen.io/dudleystorey/pen/knqyK
+
+вз€л отсюда слайдбар, документаци€ по нему
+https://www.adchsm.com/slidebars/help/usage/opening-and-closing-slidebars/
+
+https://codyhouse.co/demo/responsive-sidebar-navigation/index.html#0 - меню
+https://codyhouse.co/demo/quick-add-to-cart/index.html - плитка товаров
+http://tz-private-webchat.herokuapp.com/chat/397086 - онлайн чат
+http://www.sitehere.ru/lending-otzyvy - отзывы
+http://www.web.cofp.ru/vse-o-sajtakh/sozdanie-sajta/javascript/jquery/153-ajax-forma-obratnoj-svyazi-na-jquery форма обр св€зи
+http://prog-time.ru/forma-obratnoj-svyazi-v-modalnom-okne-na-php-i-ajax/
+
+http://dreamhelg.ru/2009/09/ajax-based-shopping-cart-with-jquery-and-php/
+https://webformyself.com/kak-sdelat-korzinu-na-sajte-internet-magazina-i-uvelichit-srednij-chek/
+https://php-academy.kiev.ua/blog/build-a-shopping-cart-with-php-and-mysql
+
+https://habr.com/ru/post/309430/ 30 легковесных JavaScript плагинов и библиотек
+https://vc.ru/flood/36655-17-poleznyh-bibliotek-i-instrumentov-dlya-frontenda
+http://beloweb.ru/javascript-jquery/20-ochen-interesnyih-jquery-plaginov-dlya-sayta.html
+
+
+видео как пилить маг с 0
+https://www.youtube.com/watch?v=tRY9pph8330&list=PLM7wFzahDYnEGeJq8sqlJLaZhJ8HQdbgT&index=2
+
+...https://barba.js.org/ - ¬ќ«ћќ∆Ќќ≈ как дополнение внутренней навигации
+...пример сайта http://normsugar.com/info7
+
+
+http://dreamhelg.ru/2009/09/ajax-based-shopping-cart-with-jquery-and-php/ корзина
+
+https://www.behance.net/gallery/45573315/The-World-Of-Audi?tracking_source=search%257Caudi референс
+
+https://codyhouse.co/ds/get-started фреймворк
